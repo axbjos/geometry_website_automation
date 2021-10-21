@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               docker.build("geometrywebdocker/latest) 
+               docker.build("geometrywebdocker/latest") 
             }
         }
 
