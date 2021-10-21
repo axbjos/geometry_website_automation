@@ -1,5 +1,5 @@
 import unittest
-import GeometryCalcWeb as app
+import Geometry as app
 
 class TestWeb(unittest.TestCase):
 
