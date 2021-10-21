@@ -1,11 +1,10 @@
-/*declarative syntax for Docker 
-*/
+/*using docker pipeline steps
 pipeline {
     agent { any }
     stages {
         stage('build') {
             steps {
-               sh 'docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest' 
+               docker.build("geometrywebdocker/latest) 
             }
         }
 
