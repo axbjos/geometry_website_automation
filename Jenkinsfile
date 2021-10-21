@@ -1,7 +1,6 @@
 /*declarative syntax for Docker 
 */
 pipeline {
-    agent any
     stages {
         stage('build') {
             steps {
