@@ -1,7 +1,7 @@
 pipeline {
     agent { 
-        dockerfile {
-             label 'geometrydocker'
+        dockerfile { true
+             args '-t geometrywebdocker:latest'
              }
         }
     stages {
