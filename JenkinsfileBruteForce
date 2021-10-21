@@ -12,6 +12,7 @@ pipeline {
         stage('test') {
             steps {
                sh 'docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest'
+               sh 'docker exec -it geometrywebdocker:latest echo "'
             }
         }
 
