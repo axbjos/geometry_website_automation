@@ -1,4 +1,4 @@
-/*using docker pipeline steps
+/*using docker pipeline steps*/
 pipeline {
     agent { any }
     stages {
