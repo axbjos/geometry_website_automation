@@ -1,2 +1,2 @@
-# geometry_calcualtor_web_docker
+# Geometry Calculator Web App - Docker
 Dockerize version of the Geometry Calculator Flask Web App
