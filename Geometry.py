@@ -1,11 +1,11 @@
-# SENG3110 Software Testing
+# SENG3120 Software Process Improvement
 # 
-# Project: Geometry Calculator Web App
+# Project: Geometry Calculator Web App Docker
 #
 # Sample Code for the Python Flask Web App Implementation of the Geometry Calculator
 #
 # Author: Joe Axberg
-# Orig Date: 9/22/2021
+# Orig Date: 10/21/2021
 #
 # imports
 from flask import Flask, request, render_template, redirect, url_for
