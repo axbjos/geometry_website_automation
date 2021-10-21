@@ -1,5 +1,6 @@
 pipeline {
-    agent { dockerfile true }
+    agent { dockerfile true 
+             label 'geometrydocker'}
     stages {
         stage('test') {
             steps {
