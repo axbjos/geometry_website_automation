@@ -1,7 +1,6 @@
 pipeline {
     agent { 
-        dockerfile {
-             args '-t geometrywebdocker:latest'
+        dockerfile { true
              }
         }
     stages {
