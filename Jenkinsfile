@@ -19,7 +19,9 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            sh 'echo "Tests passed"'
+            sh 'echo "Running Tests"'
+            sh 'cd /app'
+            sh 'python3 -m unittest GeometryTest.py'
         }
     }
 
