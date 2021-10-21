@@ -22,10 +22,11 @@ node {
             sh 'echo "Running Tests"'
             sh 'cd /app'
             sh 'python3 -m unittest GeometryTest.py'
+            sh 'python3 -m unittest cylinderTest.py'
         }
     }
 
-    stage('Push image') {
+    stage('Push') {
         docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
             //app.push("${env.BUILD_NUMBER}")
             //app.push("latest")
