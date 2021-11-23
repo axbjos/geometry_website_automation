@@ -2,7 +2,9 @@
 
 Source code and automation for and example (and very simple) Python Flask Web App
 
-## To Simply Run the Application:
+## To Build/Run the Application on Anything that Runs Python:
+
+(Reminder on Windows do not use python3, just python)
 
 1. Clone this repo to any computer capable of running Python 3.
 
@@ -35,6 +37,8 @@ Source code and automation for and example (and very simple) Python Flask Web Ap
 If you want to run the Python Unit tests, use the Pyunit module.  python3 -m unittest <testfile.py>
 
 ## To Build/Run the Application as a Docker Container:
+
+Must have a system running the Docker Engine
 
 1. Clone this repo to a server running Docker Engine
 
