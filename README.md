@@ -8,7 +8,7 @@ Source code and automation for and example (and very simple) Python Flask Web Ap
 
     ```git clone https://github.com/axbjos/geometry_web_complete.git```
 
-2. Install the Python 3 "Virtual Environment" module (best to run this in a venv, Ubuntu example provided).
+2. Install the Python 3 "Virtual Environment" module (best to run this in a venv, Ubuntu example provided.  Other OS will be different.).
 
     ```sudo apt install python3.8-venv```
 
@@ -38,19 +38,19 @@ If you want to run the Python Unit tests, use the Pyunit module.  python3 -m uni
 
 1. Clone this repo to a server running Docker Engine
 
-```git clone https://github.com/axbjos/geometry_web_complete.git```
+    ```git clone https://github.com/axbjos/geometry_web_complete.git```
 
 2. cd into the *geometry_web_complete* directory
 
-```cd geometry_web_complete```
+    ```cd geometry_web_complete```
 
 3. Run Docker Build to build the container
 
-```docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest "."```
+    ```docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest "."```
 
 4. Run the container
 
-```docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest```
+    ```docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest```
 
 ## Infrastructure Automation Examples
 
