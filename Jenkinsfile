@@ -1,3 +1,4 @@
+/*Jenkinsfile for automatically building the Dockerized version of the app
 node {
     def app
 
