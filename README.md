@@ -1,6 +1,6 @@
 # Geometry Calculator Web App
 
-Source code and automation for the Geometry Web App
+Source code and automation for and example (and very simple) Python Flask Web App
 
 ## To Simply Run the Application:
 
@@ -17,11 +17,24 @@ If you want to run the Python Unit tests, use the Pyunit module.  python3 -m uni
 ## To Build/Run the Application as a Docker Container:
 
 1. Clone this repo to a server running Docker Engine
+
 2. cd into the *geometry_web_complete* directory
-3. Run Docker Build to build the container: docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest "."
-4. Run the container: docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest
+
+```cd geometry_web_complete```
+
+3. Run Docker Build to build the container
+
+```docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest "."```
+
+4. Run the container
+
+```docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest```
 
 ## Infrastructure Automation Examples
+
+Use the following Infrastructure Automation Examples for inspiration on how to build your own Infrastructure.
+
+
 ### Vagrant
 
 - Must have Vagrant and a suitable hypervisor.  Use Virtualbox, VMare Fusion, VMware Workstation.  
@@ -44,11 +57,11 @@ VagrantfileDockerOnly - Vagrant automation to build an Ubuntu Server running the
 
 The Terraform directory contains two different .tf files.
 
-- axnetlabs.tf ::: only has usefulness in the Axnet VMware Homelab of Joe Axberg.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
+- axnetlabs.tf --> only has usefulness in the Axnet VMware Homelab of Joe Axberg.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
 
-- senglab.tf ::: only has usefulness in the Dunwoody Software Engineering VMware Lab.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
+- senglab.tf --> only has usefulness in the Dunwoody Software Engineering VMware Lab.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
 
-- awslab.tf ::: coming soon, will work with AWS 
+- awslab.tf --> coming soon, will work with AWS 
 
 
 
