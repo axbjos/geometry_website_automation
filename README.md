@@ -40,6 +40,15 @@ VagrantffileDockerFlaskApp - Vagrant automation that builds an Ubuntu Server, au
 
 VagrantfileDockerOnly - Vagrant automation to build an Ubuntu Server running the Docker Engine - that's it.  Log in and build and run any container.
 
+### Terraform
+
+The Terraform directory contains two different .tf files.
+
+- axnetlabs.tf ::: only has usefulness in the Axnet VMware Homelab of Joe Axberg.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
+
+- senglab.tf ::: only has usefulness in the Dunwoody Software Engineering VMware Lab.  This file will create a standard Ubuntu 20.04 server in that environment. By default an Ubuntu 20.04 with 1GB RAM, 1 CPU, and 20GB HDD will be created.
+
+- awslab.tf ::: coming soon, will work with AWS 
 
 
 
