@@ -1,6 +1,6 @@
-# This Terraform file is only useful for building VM on Joe Axberg's
-# VMware ESXI/vCenter Homelabdata 
-# Use as an example only
+# This Terraform file is only useful for building VM on the Axnet Labs, LLC
+# VMware ESXI/vCenter Environment
+# Use as an example only!
 # If you are a student, other VMware labs will likely be different
 #
 # Code Made Available for Use by Axnet Labs, LLC.
