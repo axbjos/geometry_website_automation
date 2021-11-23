@@ -21,17 +21,26 @@ If you want to run the Python Unit tests, use the Pyunit module.  python3 -m uni
 3. Run Docker Build to build the container: docker build --pull --rm -f "Dockerfile" -t geometrywebdocker:latest "."
 4. Run the container: docker run --rm -d  -p 5000:5000/tcp geometrywebdocker:latest
 
-## Infrastructure Automation
-
+## Infrastructure Automation Examples
 ### Vagrant
 
-Must have Vagrant and a suitable hypervisor.  Use Virtualbox, VMare Fusion, VMware Workstation
+- Must have Vagrant and a suitable hypervisor.  Use Virtualbox, VMare Fusion, VMware Workstation.  
 
-Download the desired Vagrant File and rename it "Vagrantfile"   Then simply *vagrant up*
+- Download the desired Vagrant File, put it in a directory, and rename it "Vagrantfile"   Then simply *vagrant up*
+
+- All examples use the ubuntu/focal64 (aka Ubunt 20.04 Vagrant compatible template "box")
+
+- *M1 macOS examples coming soon*  Will need to use VMware Fusion
+
+**Vagrantfiles:**
+
+VagranfileFlask - Vagrant automation to build an Ubuntu Server and automate all steps to install dependencies and run the Flask Application.  At the end, the Flask app is up and running on port 5000.  
+
+VagrantffileDockerFlassAllinOne - Vagrant automation that builds an Ubuntu Server, automates all steps to install Docker Engine.  The automates building the Flask Application Container and running.  At the end, the Flask App is running on port 5000 as a container.
+
+VagrantfileDockerOnly - Vagrant automation to build an Ubuntu Server running the Docker Engine - that's it.  Log in and build and run any container.
 
 
-VagrantfileDocker - Vagrant automation to build an Ubuntu Server running the Docker Engine
-VagranfileFlask - Vagrant automation to build an Ubuntu Server prepped for running the Flask application above.
 
 
 
