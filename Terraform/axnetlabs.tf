@@ -13,9 +13,10 @@ variable "vmhostname" {
   type = string
 }
 
+#password commented out
 provider "vsphere" {
   user           = "administrator@axnet.local"
-  password       = "axbRTR95!"
+  password       = "**********"
   vsphere_server = "192.168.1.202"
 
   # If you have a self-signed cert
