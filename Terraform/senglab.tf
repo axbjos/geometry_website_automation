@@ -1,4 +1,4 @@
-#example for the Dunwoody SENG labe
+#example for the Dunwoody SENG Lab
 #Big difference is that the SENG Lab doesn't have a cluster
 #Notice it is commented out.
 #Instead of specifying a Cluser, a specific vSphere Host is used:
