@@ -13,7 +13,7 @@ On this server created by Terraform one could:
 
 Review the main README for instructions on how to do 1 & 2.
 
-## VMware vSphere Terraform Files
+### VMware vSphere Terraform Files
 
 Use the VMware Terraform files for environments based on VMware vSphere - aka ESXI Virtualization and a vCenter
 
