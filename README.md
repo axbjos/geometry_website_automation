@@ -34,9 +34,9 @@ If you want to run the Python Unit tests, use the Pyunit module.  python3 -m uni
 
 **Vagrantfiles:**
 
-VagranfileFlask - Vagrant automation to build an Ubuntu Server and automate all steps to install dependencies and run the Flask Application.  At the end, the Flask app is up and running on port 5000.  
+VagranfileFlaskApp - Vagrant automation to build an Ubuntu Server and automate all steps to install dependencies and run the Flask Application.  At the end, the Flask app is up and running on port 5000.  
 
-VagrantffileDockerFlassAllinOne - Vagrant automation that builds an Ubuntu Server, automates all steps to install Docker Engine.  The automates building the Flask Application Container and running.  At the end, the Flask App is running on port 5000 as a container.
+VagrantffileDockerFlaskApp - Vagrant automation that builds an Ubuntu Server, automates all steps to install Docker Engine.  The automates building the Flask Application Container and running.  At the end, the Flask App is running on port 5000 as a container.
 
 VagrantfileDockerOnly - Vagrant automation to build an Ubuntu Server running the Docker Engine - that's it.  Log in and build and run any container.
 
