@@ -16,8 +16,7 @@ node {
     }
 
     stage('Test') {
-        /* Ideally, we would run a test framework against our image.
-         * For this example, we're using a Volkswagen-type approach ;-) */
+        /* Some Unit Tests */
 
         app.inside {
             sh 'echo "Running Tests"'
