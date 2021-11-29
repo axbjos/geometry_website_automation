@@ -8,7 +8,7 @@ Source code and automation for and example (and very simple) Python Flask Web Ap
 
 1. Clone this repo to any computer capable of running Python 3.
 
-    ```git clone https://github.com/axbjos/geometry_web_complete.git```
+    ```git clone https://github.com/axbjos/geometry_web_automation.git```
 
 2. Install the Python 3 "Virtual Environment" module (best to run this in a venv, Ubuntu example provided.  Other OS will be different.).
 
@@ -16,7 +16,7 @@ Source code and automation for and example (and very simple) Python Flask Web Ap
 
 3. cd into the application directory.
 
-    ```cd geometry_web_complete/FlaskApplication```
+    ```cd geometry_web_automation/FlaskApplication```
 
 4. Create a Virtual Environment.
 
@@ -42,11 +42,11 @@ Must have a system running the Docker Engine
 
 1. Clone this repo to a server running Docker Engine
 
-    ```git clone https://github.com/axbjos/geometry_web_complete.git```
+    ```git clone https://github.com/axbjos/geometry_web_automation.git```
 
 2. cd into the *geometry_web_complete* directory
 
-    ```cd geometry_web_complete/FlaskApplication```
+    ```cd geometry_web_automation/FlaskApplication```
 
 3. Run Docker Build to build the container
 
