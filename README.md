@@ -1,4 +1,6 @@
-# Geometry Calculator Web App
+# Geometry Calculator Web App & Example Automation
+
+Key Words: *Flask Python Docker Jenkins CI CD Automation*
 
 Source code and automation for and example (and very simple) Python Flask Web App
 
